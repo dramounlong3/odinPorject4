@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/calculator.css" />
+    <script src="./calculator.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div getTestText>
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <div class="box">
+      <div class="calculator">
+        <div class="displayBox">
+          <div data-previous-operand class="display previousOperand"></div>
+          <div data-current-operand class="display currentOperand"></div>
+        </div>
+        <button data-all-clear class="allClear fun">AC</button>
+        <button data-delete class="delete fun">DEL</button>
+        <button data-operation class="divide operator">÷</button>
+        <button data-number class="number">1</button>
+        <button data-number class="number">2</button>
+        <button data-number class="number">3</button>
+        <button data-operation class="multiple operator">*</button>
+        <button data-number class="number">4</button>
+        <button data-number class="number">5</button>
+        <button data-number class="number">6</button>
+        <button data-operation class="add operator">+</button>
+        <button data-number class="number">7</button>
+        <button data-number class="number">8</button>
+        <button data-number class="number">9</button>
+        <button data-operation class="substract operator">-</button>
+        <button data-number class="number dot">.</button>
+        <button data-number class="number zero">0</button>
+        <button data-equals class="fun equal">=</button>
+      </div>
+      <div class="footer">support keyboard input</div>
+    </div>
+  </body>
+</html>
